@@ -38,6 +38,8 @@ def menambahkan():
     file.write(f"Nama Sahabat : {nama_sahabat.capitalize()} \n")
     file.write(f"Catatan : {catatan_tambahan}\n")
     
+    file.close()
+    
 if __name__ == '__main__':
     while True:
         banner()
